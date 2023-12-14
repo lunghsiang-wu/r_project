@@ -120,9 +120,6 @@ How was it collected?
 
 ## Data Wrangling
 
-As the datasets are different aspects of information about london marathon, we choose not to combine them but analyze them seperately.
-
-
 #### Which subset of the data is relevant to our research question? Have we filtered out any observations from the analysis? Have we created new variables?
 For the winners dataset, all variables and observations are relevant. For the london_marathon dataset, only variables Year, Applicants, Accepted, Starters, Finishers are relevant to our research questions.  
 
@@ -130,31 +127,8 @@ For the winners dataset, no observation is filtered out. For the london_marathon
 
 We created new variables, which are ratio of accepted, ratio of starters, and ratio of finishers, in the london_marathon dataset.
 
-### Methods dealing with missing values
-1. Deleting
-2. Interpolation
-- mean, median, mode
-- KNN(K nearest neighbor)
-- stochastic interpolation
-- EM
-- Lagrange interpolation
-- Hot-Deck imputation
-3. Multiple Interpolation
-- Predictive Mean Matching
-- Propensity Score
-- Markov Chain Monte Carlo
-4. Models
-- Regression
-- Bayesian models
-- Random Forest
-- Decision Tree
-5. Mapping to higher dimensions
-6. Stochastic filling
-- Bayesian bootstrap
-- Approximate Bayesian Bootstrap
-7. Not dealing with
-
-We chose not dealing with the missing values, in london_marathon dataset. The reason is that those values are missing systematically. No appropriate methods are candidates until we figured out why they are missing, which is beyond our capability.
+### Are there missing values?
+The winners dataset dos not contain any missing values, but the london_marathon dataset does. There are many methods to filling missing values. But we chose not to adopt a specific one, since those values are missing systematically. No appropriate appllys except we were able to figure out why they are missed.
 
 
 ### Do variables have appropriate type?
