@@ -1,6 +1,6 @@
 ### A repository for an R analytics team project of ST661[A] of MSc Data Science and Analytics program of NUIM.
 
-The anlytics project analyses the London Marathon dataset using statistical techniques such as linear regression and time series analysis. 
+The anlytics project analyses the London Marathon datasets using statistical techniques such as linear regression and time series analysis. 
 
 The datasets can be accessed by:
 ````r
