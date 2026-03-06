@@ -3,7 +3,7 @@
 
 The anlytics project analyses the London Marathon datasets using statistical techniques such as linear regression and time series analysis. 
 
-The datasets can be accessed by:
+You can acess these datasets by:
 ````r
 remotes::install_github("nrennie/LondonMarathon")
 data(winners, package = "LondonMarathon")
